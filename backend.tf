@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     organization = "beerpoldet"
     workspaces {
-      name = "gh-action-demo"
+      name = "gh-actions-demo"
     }
   }
 
